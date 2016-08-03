@@ -16,6 +16,7 @@ li{
 
 .main-block {
 	line-height: 1.5;
+	z-index: -1;
 	position: relative;
 	box-sizing:border-box;
 	width: 100%;
@@ -35,7 +36,7 @@ li{
 	height: 120px;
 
 	border-radius: 50%;
-	background: url('../image/picture.JPG');
+	background: url('../image/picture.jpg');
 	background-size: cover;
 }
 
@@ -104,7 +105,7 @@ li{
 .clockdate-wrapper {
 	background-color: #062578;
 	padding: 25px;
-	max-width: 430px;
+	max-width: 530px;
 	width: 100%;
 	text-align: center;
 	border-radius: 5px;
@@ -143,6 +144,10 @@ li{
 	width: 285px;
 }
 
+.jumbotron-custom {
+	background-color: transparent !important;
+}
+/*
 .jumbotron{
 	height: 100%;
 	-webkit-background-size:cover;
@@ -150,7 +155,7 @@ li{
 	-o-background-size:cover;
 	background-size: cover;
 }
-
+*/
 .menu ul{
 	border-bottom: 1px solid #636366;
 	line-height: 45px;
